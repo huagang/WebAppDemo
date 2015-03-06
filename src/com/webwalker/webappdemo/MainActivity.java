@@ -11,7 +11,8 @@ public class MainActivity extends BaseActivity {
 		setContentView(R.layout.activity_main);
 
 		Intent it = new Intent();
-		it.setClass(this, HardwareSpeedupActivity.class);
+		// it.setClass(this, HardwareSpeedupActivity.class);
+		it.setClass(this, NormalActivity.class);
 
 		startActivity(it);
 		finish();
